@@ -36,6 +36,9 @@
 
 ## Result of `go tool dist list` 
 
+```
+$ go tool dist list
+
 aix/ppc64
 android/386
 android/amd64
@@ -79,7 +82,7 @@ solaris/amd64
 windows/386
 windows/amd64
 windows/arm
-
+```
 
 
 ## 免責
