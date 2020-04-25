@@ -93,7 +93,7 @@ windows/arm
 
 # OSとは
 
-https://en.wikipedia.org/wiki/Operating_system#Examples
+[Operating_system#Examples(en.wikipedia)](https://en.wikipedia.org/wiki/Operating_system#Examples)
 
 ## ＵｎｉｘおよびＵｎｉｘ系オペレーティングシステム
 
@@ -123,7 +123,7 @@ Keith Bosticのような開発者たちは、Bell Labsに由来する不自由�
 
 ## macOS
 
-https://en.wikipedia.org/wiki/MacOS
+[MacOS(en.wikipedia)](https://en.wikipedia.org/wiki/MacOS)
 
 macOS（/ˌmækoʊˈɛs/; 以前のMac OS Xとそれ以降のOS X）は、2001年以来、アップル社によって開発され、販売されているプロプライエタリなグラフィカルなオペレーティングシステムのシリーズです。これは、AppleのMacコンピュータのための主要なオペレーティングシステムです。デスクトップ、ラップトップと家庭用コンピュータの市場内で、そしてウェブの使用によって、それはマイクロソフトのWindowsに次いで2番目に広く使用されているデスクトップOSです。
 
@@ -159,7 +159,7 @@ macOSは、Unixオペレーティングシステムをベースに、1985年にA
 
 ## AIX
 
-https://en.wikipedia.org/wiki/IBM_AIX
+[IBM_AIX(en.wikipedia)](https://en.wikipedia.org/wiki/IBM_AIX)
 
 AIX（Advanced Interactive eXecutive、発音は/ˌeɪaɪˈɛks/）は、IBMが開発し、そのコンピュータプラットフォームのいくつかのために販売しているプロプライエタリなUnixオペレーティングシステムのシリーズである。元々はIBM RT PC RISCワークステーション用にリリースされたが、AIXは現在、IBM RS/6000シリーズとそれ以降のPOWERとPowerPCベースのシステム、IBM System i、System/370メインフレーム、PS/2パーソナルコンピュータ、およびApple Network Serverを含むハードウェアプラットフォームの多種多様をサポートしているか、またはサポートしている。
 
@@ -190,7 +190,7 @@ AIXはジャーナリングファイルシステムを持つ最初のオペレ�
 
 ## Android
 
-https://en.wikipedia.org/wiki/Android_(operating_system)
+[Android_(operating_system)(en.wikipedia)](https://en.wikipedia.org/wiki/Android_(operating_system))
 
 Androidは、主にスマートフォンやタブレットなどのタッチスクリーンモバイル機器向けに設計されたLinuxカーネルやその他のオープンソースソフトウェアの改変版をベースとしたモバイルオペレーティングシステムである。Androidは、Open Handset Allianceとして知られる開発者のコンソーシアムによって開発されており、主な貢献者と商業的な販売者はGoogleである。
 
@@ -226,7 +226,7 @@ Androidは2011年からスマートフォンで、2013年からタブレット�
 
 ## Darwin
 
-https://en.wikipedia.org/wiki/Darwin_(operating_system)
+[Darwin_(operating_system)(en.wikipedia)](https://en.wikipedia.org/wiki/Darwin_(operating_system))
 
 Darwinは、2000年にApple Inc.によって最初にリリースされたオープンソースのUnixライクなオペレーティングシステムです。Appleが開発したコードと、NeXTSTEP、BSD、Mach、その他のフリーソフトウェアプロジェクトから派生したコードで構成されています。
 
@@ -251,7 +251,7 @@ Darwinは、macOS (以前はOS XとMac OS X)、iOS、watchOS、tvOS、iPadOSの�
 
 ### XNU
 
-https://en.wikipedia.org/wiki/XNU
+[XNU(en.wikipedia)](https://en.wikipedia.org/wiki/XNU)
 
 XNUとは、Apple Inc.で1996年12月からmacOS用に開発されたコンピュータ・オペレーティング・システム（OS）カーネルであり、Apple TVソフトウェア、iOS、iPadOS、watchOS、tvOSの基盤となっているDarwin OSの一部としてフリーでオープンソースのソフトウェアとしてリリースされている。XNUはX is Not Unixの略称である。
 
@@ -308,7 +308,7 @@ I/O Kit は、Embedded C++ をベースにした C++ のサブセットで書か
 
 ## DragonFly BSD
 
-https://en.wikipedia.org/wiki/DragonFly_BSD
+[DragonFly_BSD(en.wikipedia)](https://en.wikipedia.org/wiki/DragonFly_BSD)
 
 DragonFly BSD は、FreeBSD 4.8 からフォークされたフリーでオープンソースの Unix ライクなオペレーティングシステムです。1980 年代後半から 1990 年代初頭の Amiga の開発者であり、1994 年から 2003 年まで FreeBSD の開発者であった Matthew Dillon は、2003 年 6 月に DragonFly BSD の開発を開始し、2003 年 7 月 16 日に FreeBSD のメーリングリストで発表しました。
 
@@ -346,7 +346,7 @@ FreeBSD 4.x シリーズの論理的な継続として意図されていた Drag
 
 ## FreeBSD
 
-https://en.wikipedia.org/wiki/FreeBSD
+[FreeBSD(en.wikipedia)](https://en.wikipedia.org/wiki/FreeBSD)
 
 FreeBSD は、Research Unix をベースにした Berkeley Software Distribution (BSD) をベースにしたフリーでオープンソースの Unix ライクなオペレーティングシステムです。FreeBSD の最初のバージョンは 1993 年にリリースされました。2005 年には、FreeBSD は最も人気のあるオープンソースの BSD オペレーティングシステムであり、 インストールされているすべての単純な許可制の BSD システムの 4 分の 3 以上を占めています。
 
@@ -379,7 +379,7 @@ FreeBSD プロジェクトには、基本配布物に含まれるすべてのソ
 
 ## illumos
 
-https://en.wikipedia.org/wiki/Illumos
+[Illumos(en.wikipedia)](https://en.wikipedia.org/wiki/Illumos)
 
 illumosはフリーでオープンソースのUnixオペレーティングシステムです。illumosはカーネル、デバイスドライバ、システムライブラリ、システム管理用ユーティリティソフトウェアで構成されています。このコアは現在、LinuxカーネルがさまざまなLinuxディストリビューションで使われているのと同じように、さまざまなオープンソースの illumosディストリビューションのベースとなっています。
 
@@ -423,7 +423,7 @@ OpenStorage Summit 2010では、illumosの新しいロゴが公開され、正�
 
 （OSではないが一貫性のために追加）
 
-https://en.wikipedia.org/wiki/JavaScript
+[JavaScript(en.wikipedia)](https://en.wikipedia.org/wiki/JavaScript)
 
 JavaScript (/ˈdʒɑːvəˌskrɪpt/)、は、しばしばJSと略されるが、ECMAScript仕様に準拠したプログラミング言語である JavaScriptは高レベルで、しばしばジャストインタイムコンパイルされ、マルチパラダイムである。JavaScriptは、カーリーブラケット構文、動的型付け、プロトタイプベースのオブジェクト指向、およびファーストクラスの関数を備えている。
 
@@ -453,7 +453,7 @@ JavaScriptとJavaの間には、言語名や構文、それぞれの標準ライ
 
 ## Linux
 
-https://en.wikipedia.org/wiki/Linux
+[Linux(en.wikipedia)](https://en.wikipedia.org/wiki/Linux)
 
 Linux (/ˈlɪnəks/ (このサウンドリッスンについて) LIN-əks)は、LinuxカーネルをベースにしたオープンソースのUnixライクなオペレーティングシステムのファミリーであり、1991年9月17日にLinus Torvaldsによって最初にリリースされたオペレーティングシステムカーネルである Linuxは通常、Linuxディストリビューションにパッケージされている。
 
@@ -491,7 +491,7 @@ Linuxは、フリーでオープンソースのソフトウェアのコラボレ
 
 ### Linux Kernel
 
-https://en.wikipedia.org/wiki/Linux_kernel
+[Linux_kernel(en.wikipedia)](https://en.wikipedia.org/wiki/Linux_kernel)
 
 Linux カーネルは、フリーでオープンソースのモノリシックな Unix ライクなオペレーティングシステムのカーネルである。パーソナルコンピュータ、モバイルデバイス、メインフレーム、スーパーコンピュータ から、ルータ、ワイヤレスアクセスポイント、個人用支店交換、セットトップボックス、FTA受信機、スマートテレビ、パーソナルビデオレコーダ、NASアプライアンスなどの組み込みデバイスに至るまで、多種多様なコンピューティングシステム上に展開されています。その可用性と継続的な開発とサポートにより、多くのオペレーティングシステム・ディストリビューション（一般的にはLinuxとも呼ばれる）が生まれました。
 
@@ -522,7 +522,7 @@ Linuxカーネルは世界中の貢献者によって開発されており、フ
 
 ### Debian
 
-https://en.wikipedia.org/wiki/Debian
+[Debian(en.wikipedia)](https://en.wikipedia.org/wiki/Debian)
 
 Debian (/ˈdɛbiən/)  は、Debian GNU/Linux とも呼ばれ、1993 年 8 月 16 日に Ian Murdock によって設立された Debian プロジェクトによって開発された、フリーでオープンソースのソフトウェアで構成された Linux ディストリビューションである。1993 年 9 月 15 日に Debian の最初のバージョン (0.01) がリリースされ、1996 年 6 月 17 日に最初の安定版 (1.1) がリリースされました。また、Debian は他の多くのディストリビューション、特に Ubuntu の基礎となっています。
 
@@ -555,7 +555,7 @@ Debian は Linux カーネルをベースにした最も古いオペレーティ
 
 ### Fedora
 
-https://en.wikipedia.org/wiki/Fedora_(operating_system)
+[Fedora_(operating_system)(en.wikipedia)](https://en.wikipedia.org/wiki/Fedora_(operating_system))
 
 Fedora は、IBM の子会社である Red Hat が主にスポンサーとなり、他の企業からの追加サポートを受けているコミュニティサポートの Fedora プロジェクトによって開発された Linux ディストリビューションです。 Fedora には、様々なフリー・オープンソースのライセンスで配布されているソフトウェアが含まれており、フリー技術の最先端を目指しています。 Fedora は、商用の Red Hat Enterprise Linux ディストリビューションのアップストリームソースです。
 
@@ -587,7 +587,7 @@ Fedora 30のリリース以来、現在は5種類のエディションが用意�
 
 ### Ubuntu
 
-https://en.wikipedia.org/wiki/Ubuntu
+[Ubuntu(en.wikipedia)](https://en.wikipedia.org/wiki/Ubuntu)
 
 Ubuntu（/ˈʊbʊntuː/（このサウンドリッスンについて）uu-BUUN-too）は、DebianをベースとしたフリーでオープンソースのLinuxディストリビューションである Ubuntuは正式には3つのエディションでリリースされています。デスクトップ、サーバー、およびモノのインターネットデバイスやロボット用のコアの3つのエディションが正式にリリースされている。 すべてのエディションは、コンピュータ上で単独で実行することも、仮想マシンで実行することも可能である。 Ubuntuは、OpenStackをサポートしており、クラウドコンピューティングのための人気の高いオペレーティングシステムである。
 
@@ -621,7 +621,7 @@ Ubuntuは、Canonicalは、"私たちはすべての人が誰であるかのた�
 
 ### Red Hat Enterprise Linux
 
-https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux
+[Red_Hat_Enterprise_Linux(en.wikipedia)](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux)
 
 Red Hat Enterprise Linuxは、Red Hatが商用市場向けに開発したLinuxディストリビューションである。Red Hat Enterprise Linuxは、x86-64、Power ISA、ARM64、IBM Z用のサーバー版と、x86-64用のデスクトップ版がリリースされています。Red Hat の公式サポートとトレーニングはすべて、Red Hat Certification Program とともに、Red Hat Enterprise Linux プラットフォームに焦点を当てています。Red Hat Enterprise Linux はしばしば RHEL と略されます。
 
@@ -654,7 +654,7 @@ Red Hat は、公式にサポートされているバージョンの Red Hat Ent
 
 ### SUSE Linux Enterprise Server
 
-https://en.wikipedia.org/wiki/SUSE_Linux_Enterprise
+[SUSE_Linux_Enterprise(en.wikipedia)](https://en.wikipedia.org/wiki/SUSE_Linux_Enterprise)
 
 SUSE Linux Enterprise Server（SLES）は、SUSE社が開発したLinuxベースのオペレーティングシステムです。サーバ、メインフレーム、ワークステーション向けに設計されていますが、テスト用にデスクトップコンピュータにもインストールすることができます。メジャーバージョンは3～4年の間隔でリリースされ、マイナーバージョン（「サービスパック」と呼ばれる）は約12ヶ月ごとにリリースされます。SUSE Linux Enterprise Serverを含むSUSE Linux Enterprise製品は、上流のopenSUSEコミュニティ製品よりも厳しいテストを受けており、含まれるコンポーネントの成熟した安定したバージョンのみが、リリースされるエンタープライズ製品に反映されます。
 
@@ -692,7 +692,7 @@ IBMのWatsonは、SLESを使用してIBMのPOWER7システム上に構築され�
 
 ## NetBSD
 
-https://en.wikipedia.org/wiki/NetBSD
+[NetBSD(en.wikipedia)](https://en.wikipedia.org/wiki/NetBSD)
 
 NetBSD はバークレー・ソフトウェア・ディストリビューション (BSD) をベースにしたフリーでオープンソースの Unix ライクなオペレーティングシステムです。386BSD がフォークされた後に正式にリリースされた最初のオープンソース BSD の子孫である 。
 
@@ -721,7 +721,7 @@ NetBSD プロジェクトは、コードの明快さ、慎重な設計、多く�
 
 ## Plan 9
 
-https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs
+[Plan_9_from_Bell_Labs(en.wikipedia)](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
 
 Bell LabsのPlan 9は、1980年代半ばにBell LabsのComputing Science Research Center (CSRC)に由来し、1960年代後半にそこで最初に開発されたUNIXのコンセプトをベースに構築された分散型オペレーティングシステムです。最終的な正式リリースは2015年初頭。
 
@@ -753,7 +753,7 @@ Bell LabsのPlan 9という名前は、エド・ウッドが1959年に制作し�
 
 ## Solaris
 
-https://en.wikipedia.org/wiki/Solaris_(operating_system)
+[Solaris_(operating_system)(en.wikipedia)](https://en.wikipedia.org/wiki/Solaris_(operating_system))
 
 SolarisはSun Microsystemsによって開発された不自由なUnixオペレーティングシステムです。1993年に同社の以前のSunOSに取って代わりました。2010年、SunがOracleに買収された後、Oracle Solarisに改名されました。
 
@@ -786,7 +786,7 @@ Solaris は、特に SPARC システムでのスケーラビリティの高さ�
 
 ## Microsoft Windows
 
-https://en.wikipedia.org/wiki/Microsoft_Windows
+[Microsoft_Windows(en.wikipedia)](https://en.wikipedia.org/wiki/Microsoft_Windows)
 
 Microsoft Windowsは、一般的にWindowsと呼ばれる、いくつかのプロプライエタリなグラフィカル・オペレーティング・システム・ファミリーのグループであり、そのすべてがMicrosoftによって開発され、販売されています。各ファミリは、コンピューティング業界の特定のセクターに対応しています。アクティブな Microsoft Windows ファミリには、Windows NT と Windows IoT があります。廃止された Microsoft Windows ファミリには、Windows 9x、Windows Mobile、Windows Phone があります。
 
@@ -816,7 +816,7 @@ Microsoftは1985年11月20日に、グラフィカル・ユーザー・インタ
 
 ### Windows NT
 
-https://en.wikipedia.org/wiki/Windows_NT
+[Windows_NT(en.wikipedia)](https://en.wikipedia.org/wiki/Windows_NT)
 
 Windows NTは、マイクロソフトが製造したオペレーティングシステムのファミリーで、1993年7月27日に最初のバージョンがリリースされました。これは、プロセッサに依存しない、マルチプロセッシングとマルチユーザのオペレーティングシステムである。
 
@@ -828,7 +828,7 @@ NT は Windows の最初の純粋な 32 ビット版であり、コンシュー�
 
 #### Architecture of Windows NT
 
-https://en.wikipedia.org/wiki/Architecture_of_Windows_NT
+[Architecture_of_Windows_NT(en.wikipedia)](https://en.wikipedia.org/wiki/Architecture_of_Windows_NT)
 
 マイクロソフトが製造・販売しているオペレーティングシステムのラインであるWindows NTのアーキテクチャは、ユーザーモードとカーネルモードの2つの主要なコンポーネントで構成されたレイヤードデザインである。これはプリエンプティブでリエントラントなマルチタスクオペレーティングシステムであり、ユニプロセッサとシンメトリカルマルチプロセッサ(SMP)ベースのコンピュータで動作するように設計されています。入出力(I/O)要求を処理するために、I/O要求パケット(IRP)と非同期I/Oを利用するパケット駆動型のI/Oを使用します。Windows XPから、MicrosoftはWindowsの64ビット版を利用できるようにし始めましたが、それ以前は32ビット版しかありませんでした。
 
