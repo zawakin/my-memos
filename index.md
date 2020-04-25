@@ -5,3 +5,4 @@
 # コンテンツ
 
 [OSとカーネル](os-kernel/README.md)
+[Tips](Tips.md)
