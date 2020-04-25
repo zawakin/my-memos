@@ -2,6 +2,6 @@
 
 エンジニアリング関連のネタをまとめたリポジトリです。
 
-# URL
+# コンテンツ
 
-https://zawawahoge.github.io/my-memos/
+[OSとカーネル](os-kernel/README.md)
