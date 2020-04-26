@@ -776,3 +776,39 @@ Windows NTのユーザモードは、I/Oマネージャを使用して適切な�
 | Default [user interface](https://en.wikipedia.org/wiki/User_interface) | [Graphical](https://en.wikipedia.org/wiki/Graphical_user_interface) ([Windows shell](https://en.wikipedia.org/wiki/Windows_shell)) |
 | [License](https://en.wikipedia.org/wiki/Software_license)    | Depending on version, edition or customer choice: [Trialware](https://en.wikipedia.org/wiki/Trialware), [commercial software](https://en.wikipedia.org/wiki/Commercial_software), [volume licensing](https://en.wikipedia.org/wiki/Volume_licensing), [OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer)-only, [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service), [S+S](https://en.wikipedia.org/wiki/Software_plus_services)[[a\]](https://en.wikipedia.org/wiki/Windows_NT#cite_note-2) |
 | Official website                                             | [www.microsoft.com/windows/](http://www.microsoft.com/windows/) |
+
+
+
+# Chrome OS
+
+https://en.wikipedia.org/wiki/Chrome_OS
+
+Chrome OSは、Googleによって設計されたLinuxカーネルベースのオペレーティングシステムである。フリーソフトウェアのChromium OSから派生したもので、Google ChromeウェブブラウザとAura Shell（ブラウザプロセスから実行される）を主要なユーザーインターフェースとして使用しています。
+
+Googleは2009年7月にこのプロジェクトを発表し、アプリケーションとユーザーデータの両方がクラウドに存在するオペレーティングシステムとして構想した。2011年5月には、Chromebookとして知られる初のChrome OSノートパソコンが登場した。サムスンとエイサーからのChromebookの初期出荷は2011年7月に発生しました。
+
+Chrome OSには、統合メディアプレーヤーとファイルマネージャーが搭載されている。ネイティブアプリケーションに似たChrome Appsや、デスクトップへのリモートアクセスもサポートしている。当初は懐疑的な見方もあり、どのOS上で動作するブラウザも機能的には同等であるとの意見もありました。しかし、Chrome OSマシンが市場に出回るようになってからは、OSを実行するハードウェアとは別に、OSが評価されることはほとんどなくなりました。
+
+AndroidアプリがOSで利用できるようになったのは2014年からで、2016年にはサポートされているChrome OS端末でGoogle PlayのAndroidアプリ全体へのアクセスが導入されました。Project Crostini[8]として知られるLinux端末とアプリケーションのサポートは、Chrome OS 69の安定版チャンネルにリリースされた。これは、仮想マシン内でコンテナを実行する軽量な Linux カーネルによって実現された。
+
+Chrome OSはGoogleの製造パートナーからハードウェアにプリインストールされているだけだが、他の機器にインストールできる非公式な方法もある[9]。 そのオープンソースのアップストリームであるChromium OSは、ダウンロードしたソースコードからコンパイルできる。初期の段階では、GoogleはChromium OSの設計目標を提示していたが、それ以外の技術的な説明は公開していない。
+
+
+
+| [Developer](https://en.wikipedia.org/wiki/Software_developer) | [Google](https://en.wikipedia.org/wiki/Google)               |
+| :----------------------------------------------------------- | ------------------------------------------------------------ |
+| [Written in](https://en.wikipedia.org/wiki/Programming_language) | [C](https://en.wikipedia.org/wiki/C_(programming_language)), [C++](https://en.wikipedia.org/wiki/C%2B%2B), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [HTML5](https://en.wikipedia.org/wiki/HTML5), [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) |
+| OS family                                                    | [Linux](https://en.wikipedia.org/wiki/Linux)[[1\]](https://en.wikipedia.org/wiki/Chrome_OS#cite_note-Chrome_OS_official_ann-1) |
+| Working state                                                | Preinstalled on [Chromebooks](https://en.wikipedia.org/wiki/Chromebook), [Chromeboxes](https://en.wikipedia.org/wiki/Chromebox), [Chromebits](https://en.wikipedia.org/wiki/Chromebit), [Chromebases](https://en.wikipedia.org/wiki/Chromebase) |
+| Initial release                                              | June 15, 2011; 8 years ago                                   |
+| [Latest release](https://en.wikipedia.org/wiki/Software_release_life_cycle) | 81.0.4044.103 (April 13, 2020; 12 days ago[[2\]](https://en.wikipedia.org/wiki/Chrome_OS#cite_note-StableReleases-2)) [[±\]](https://en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/Chrome_OS&action=edit) |
+| [Latest preview](https://en.wikipedia.org/wiki/Software_release_life_cycle) | Beta83.0.4103.21 (April 22, 2020; 3 days ago[[3\]](https://en.wikipedia.org/wiki/Chrome_OS#cite_note-LatestReleases-3)) [[±\]](https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Chrome_OS&action=edit)Dev84.0.4114.0 (April 21, 2020; 4 days ago[[3\]](https://en.wikipedia.org/wiki/Chrome_OS#cite_note-LatestReleases-3)) [[±\]](https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Chrome_OS&action=edit) |
+| Update method                                                | [Rolling release](https://en.wikipedia.org/wiki/Rolling_release) |
+| [Package manager](https://en.wikipedia.org/wiki/Package_manager) | [Portage](https://en.wikipedia.org/wiki/Portage_(software))[[a\]](https://en.wikipedia.org/wiki/Chrome_OS#cite_note-5) |
+| Platforms                                                    | [arm](https://en.wikipedia.org/wiki/Arm), [arm64](https://en.wikipedia.org/wiki/Arm64), [x86](https://en.wikipedia.org/wiki/X86), [x64](https://en.wikipedia.org/wiki/X64) |
+| [Kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) type | [Monolithic](https://en.wikipedia.org/wiki/Monolithic_kernel) ([Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel))[[5\]](https://en.wikipedia.org/wiki/Chrome_OS#cite_note-Chromium_OS_Kernel_Design-6) |
+| [Userland](https://en.wikipedia.org/wiki/User_space#USERLAND) | Ozone (Display manager), [X11](https://en.wikipedia.org/wiki/X11) |
+| Default [user interface](https://en.wikipedia.org/wiki/User_interface) | [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome), Aura Shell (Ash) |
+| [License](https://en.wikipedia.org/wiki/Software_license)    | Proprietary[[6\]](https://en.wikipedia.org/wiki/Chrome_OS#cite_note-GTOS-7) |
+| Official website                                             | https://www.google.com/chromebook/                           |
+
