@@ -44,7 +44,7 @@ POSIX規格の開発は、オースティングループ（IEEE、The Open Group
 
 # X11
 
-https://en.wikipedia.org/wiki/X_Window_System
+[X_Window_System(en.wikipedia)](https://en.wikipedia.org/wiki/X_Window_System)
 
 X Window System (X11、または単にX)は、Unixライクなオペレーティングシステムで一般的なビットマップディスプレイ用のウィンドウシステムです。
 
@@ -264,7 +264,7 @@ PowerPC, SPARC, RISC-V, ARM, MIPSなどのRISC命令セットアーキテクチ�
 
 # Micro-operation
 
-https://en.wikipedia.org/wiki/Micro-operation
+[Micro-operation(en.wikipedia)](https://en.wikipedia.org/wiki/Micro-operation)
 
 コンピュータの中央処理装置では、マイクロ演算（マイクロ演算またはμ演算としても知られている）は、複雑な機械命令（この文脈ではマクロ命令と呼ばれることもある）を実装するためにいくつかの設計で使用される詳細な低レベル命令である[2]:8-9。
 
@@ -282,7 +282,7 @@ https://en.wikipedia.org/wiki/Micro-operation
 
 # CISC
 
-https://en.wikipedia.org/wiki/Complex_instruction_set_computer
+[Complex_instruction_set_computer(en.wikipedia)](https://en.wikipedia.org/wiki/Complex_instruction_set_computer)
 
 複雑命令セットコンピュータ（CISC /ˈsɪsk/）とは、単一の命令が複数の低レベル演算（メモリからのロード、演算、メモリストアなど）を実行したり、単一の命令内で多段階演算やアドレッシングモードが可能なコンピュータのことである。この用語は、縮小命令セット・コンピュータ（RISC）[1] とは対照的に遡って作られたもので、そのため、大規模で複雑なメインフレーム・コンピュータから、メモリ・ロードとストア操作が演算命令から分離されていない単純なマイクロコントローラに至るまで、RISC以外のすべてのものを包括する用語となっています。したがって、最新のRISCプロセッサは、特に電子回路の複雑さだけでなく、命令数やエンコーディングパターンの複雑さにおいても、CISCラベル付き命令セットを使用する最新のマイクロコントローラよりもはるかに複雑になる可能性があります。唯一の典型的な差別化特性は、ほとんどのRISC設計では、ほぼすべての命令に一様な命令長を使用し、ロード/ストア命令を厳密に分離して採用していることです。
 
@@ -296,7 +296,7 @@ https://en.wikipedia.org/wiki/Complex_instruction_set_computer
 
 # AVE
 
-https://en.wikipedia.org/wiki/Advanced_Vector_Extensions
+[Advanced_Vector_Extensions(en.wikipedia)](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
 
 Advanced Vector Extensions (AVX、別名 Sandy Bridge New Extensions) は、2008 年 3 月に Intel が提案した Intel と AMD のマイクロプロセッサ向け x86 命令セット・アーキテクチャの拡張機能で、Intel が 2011 年第 1 四半期に出荷した Sandy Bridge[1] プロセッサを最初にサポートし、その後 AMD が 2011 年第 3 四半期に出荷した Bulldozer[2] プロセッサを最初にサポートしました。AVX は新機能、新命令、新コーディング方式を提供します。
 

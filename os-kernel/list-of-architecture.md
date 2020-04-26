@@ -19,7 +19,7 @@
 
 # Instruction set architectureとは？
 
-https://en.wikipedia.org/wiki/Instruction_set_architecture
+[Instruction_set_architecture(en.wikipedia)](https://en.wikipedia.org/wiki/Instruction_set_architecture)
 
 命令セットアーキテクチャ（ISA）は、コンピュータの抽象モデルです。アーキテクチャやコンピュータアーキテクチャとも呼ばれます。中央処理装置（CPU）などのISAを実現したものを実装と呼びます。
 
