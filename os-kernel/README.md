@@ -1,2 +1,2 @@
-- [OS一覧](os-architecture.md)
+- [OS一覧](os-kernel.md)
 - [用語一覧](terms.md)
