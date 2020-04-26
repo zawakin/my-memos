@@ -781,7 +781,7 @@ Windows NTのユーザモードは、I/Oマネージャを使用して適切な�
 
 # Chrome OS
 
-https://en.wikipedia.org/wiki/Chrome_OS
+[Chrome_OS(en.wikipedia)](https://en.wikipedia.org/wiki/Chrome_OS)
 
 Chrome OSは、Googleによって設計されたLinuxカーネルベースのオペレーティングシステムである。フリーソフトウェアのChromium OSから派生したもので、Google ChromeウェブブラウザとAura Shell（ブラウザプロセスから実行される）を主要なユーザーインターフェースとして使用しています。
 

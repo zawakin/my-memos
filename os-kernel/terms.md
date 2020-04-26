@@ -64,7 +64,7 @@ POSIX規格の開発は、オースティングループ（IEEE、The Open Group
 
 # x86
 
-https://en.wikipedia.org/wiki/X86#x86_registers
+[X86#x86_registers(en.wikipedia)](https://en.wikipedia.org/wiki/X86#x86_registers)
 
 x86は、Intel 8086マイクロプロセッサとその8088変種をベースにIntelによって最初に開発された命令セット・アーキテクチャのファミリ[a]である。8086は、インテルの8ビット・マイクロプロセッサ8080の完全な16ビット拡張として1978年に導入され、プレーンな16ビット・アドレスでカバーできるより多くのメモリをアドレス指定するためのソリューションとしてメモリ・セグメンテーションが採用された。x86」という用語が生まれたのは、インテルの8086プロセッサの後継となる80186、80286、80386、80486プロセッサを含むいくつかのプロセッサの名前が「86」で終わることに由来する。
 
@@ -94,7 +94,7 @@ x86は、Intel 8086マイクロプロセッサとその8088変種をベースに
 
 # x86 assembly language
 
-https://en.wikipedia.org/wiki/X86_assembly_language
+[X86_assembly_language(en.wikipedia)](https://en.wikipedia.org/wiki/X86_assembly_language)
 
 x86アセンブリ言語は、1972年4月に導入されたIntel 8008にさかのぼってある程度の互換性を提供する下位互換性のあるアセンブリ言語のファミリーです。他のアセンブリ言語と同様に、短いニーモニックを使用して、コンピュータのCPUが理解して従うことができる基本的な命令を表現します。コンパイラは、高レベルのプログラムをマシンコードに変換する際に、中間的なステップとしてアセンブリコードを生成することがあります。プログラミング言語として考えられているアセンブリコードは、マシン固有の低レベルなものです。アセンブリ言語は、小規模なリアルタイム組み込みシステムやオペレーティングシステムのカーネルやデバイスドライバなど、詳細で時間的に重要なアプリケーションに使用されます。
 
@@ -143,7 +143,7 @@ Intel 80386には、リアルモード、プロテクトモード、バーチャ
 
 # Mnemonic
 
-https://en.wikipedia.org/wiki/Mnemonic
+[Mnemonic(en.wikipedia)](https://en.wikipedia.org/wiki/Mnemonic)
 
 ニーモニック（/nəmˈmɒnɪk/、[1]最初の "m "は発音されない）デバイス、またはメモリデバイスは、人間の記憶の中で情報の保持または検索（記憶）を補助する任意の学習技術である。記憶装置は、効率的な保存と検索を可能にする方法で任意の情報を符号化するための特定のツールとして、精巧な符号化、検索キュー、およびイメージを使用しています。ニーモニックは、元の情報が、よりアクセスしやすく、意味のあるものと関連づけられるように支援します。
 
@@ -161,7 +161,7 @@ https://en.wikipedia.org/wiki/Mnemonic
 
 # Opcode
 
-https://en.wikipedia.org/wiki/Opcode
+[Opcode(en.wikipedia)](https://en.wikipedia.org/wiki/Opcode)
 
 コンピューティングでは、オペコード（オペレーションコードの略で、命令マシンコード、命令コード、命令シラブル、命令パーセル、またはオペストリングとしても知られています）は、実行される操作を指定する機械語命令の部分です。オペコード自体の他に、ほとんどの命令はオペランドの形で処理するデータを指定します。ハードウェアデバイスである各種CPUの命令セットアーキテクチャで使用されているオペコードのほか、抽象的な計算機ではバイトコード仕様の一部として使用されることもある。
 
@@ -178,7 +178,7 @@ https://en.wikipedia.org/wiki/Opcode
 
 # AMD(Company)
 
-https://en.wikipedia.org/wiki/Advanced_Micro_Devices
+[Advanced_Micro_Devices(en.wikipedia)](https://en.wikipedia.org/wiki/Advanced_Micro_Devices)
 
 アドバンスト・マイクロ・デバイセズ（AMD）は、カリフォルニア州サンタクララ郡に本社を置くアメリカの多国籍半導体企業です。(AMD) は、カリフォルニア州サンタクララ郡に本社を置くアメリカの多国籍半導体企業で、ビジネスおよびコンシューマ市場向けのコンピュータ・プロセッサおよび関連技術を開発しています。当初は自社でプロセッサを製造していましたが、2009年にGlobalFoundriesが分社化された後は、ファブレス化として知られる製造を外部に委託しています。AMDの主な製品には、サーバー、ワークステーション、パソコン、組み込みシステム・アプリケーション向けのマイクロプロセッサ、マザーボード・チップセット、組み込みプロセッサ、グラフィックス・プロセッサなどがあります。
 
@@ -194,7 +194,7 @@ x86やx64と同様に、ARMは別のプロセッサ(CPU)アーキテクチャで
 
 # RISC
 
-https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
+[Reduced_instruction_set_computer(en.wikipedia)](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer)
 
 縮小命令セットコンピュータ、またはRISC（/rɪsk/）とは、コンピュータのマイクロプロセッサが複合命令セットコンピュータ（CISC）よりも命令あたりのサイクル数（CPI）を少なくできるようにしたコンピュータ命令セットのことである[1]。
 
