@@ -2,7 +2,8 @@
 
 エンジニアリング関連のネタをまとめたリポジトリです。
 
-# コンテンツ
+# コンピュータ・アーキテクチャ
+[コンピュ－タ・アーキテクチャ](computer-architecture/README.md)
 
-[OSとカーネル](os-kernel/README.md)
+# Tips
 [Tips](Tips.md)
