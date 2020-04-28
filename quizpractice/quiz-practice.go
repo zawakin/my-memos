@@ -4,6 +4,8 @@ import (
 	"context"
 	"fmt"
 	"os"
+
+	"github.com/zawawahoge/my-memos/quizpractice/markdown"
 )
 
 // QuizPractice is interface for quiz-practice.
@@ -23,12 +25,12 @@ func New() QuizPractice {
 }
 
 func (qp *quizPractice) Run(cxt context.Context) error {
-	paths, err := ListMarkdowns("computer-architecture")
+	paths, err := markdown.ListMarkdowns("computer-architecture")
 	if err != nil {
 		return err
 	}
 	fmt.Println(paths)
-	mds, err := LoadMarkdowns(paths)
+	mds, err := markdown.LoadMarkdowns(paths)
 	if err != nil {
 		return err
 	}

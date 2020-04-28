@@ -1,4 +1,4 @@
-package quizpractice
+package markdown
 
 import (
 	"bufio"
