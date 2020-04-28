@@ -23,7 +23,12 @@ func New() QuizPractice {
 }
 
 func (qp *quizPractice) Run(cxt context.Context) error {
-	mds, err := LoadMarkdowns("computer-architecture")
+	paths, err := ListMarkdowns("computer-architecture")
+	if err != nil {
+		return err
+	}
+	fmt.Println(paths)
+	mds, err := LoadMarkdowns(paths)
 	if err != nil {
 		return err
 	}
