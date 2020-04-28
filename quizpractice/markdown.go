@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"strings"
 )
 
 // Outliner represents markdown component.
@@ -67,7 +68,7 @@ func (md *Markdown) ToOutliners() []*Outliner {
 		if len(ss) == 3 {
 			// Outline
 			outliner = &Outliner{
-				Name:     ss[2],
+				Name:     strings.TrimSpace(ss[2]),
 				Level:    len(ss[1]),
 				Contents: []string{},
 			}
