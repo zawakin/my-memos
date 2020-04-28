@@ -17,16 +17,19 @@ type Outliner struct {
 	Contents []string
 }
 
+// Path represents path of markdown.
+type Path string
+
 // Markdown is struct for markdown(.md) file.
 type Markdown struct {
-	Path     string
+	Path     Path
 	Contents []string
 }
 
 // NewMarkdown is constructor of Markdown interface.
 func NewMarkdown(path string) *Markdown {
 	return &Markdown{
-		Path: path,
+		Path: Path(path),
 	}
 }
 
@@ -74,7 +77,21 @@ func ListMarkdowns(rootDir string) ([]string, error) {
 		return nil, err
 	}
 	return paths, nil
+}
 
+// Markdowns is struct of markdowns.
+type Markdowns []*Markdown
+
+// ToOutlinersMap returns a map of path to outliners.
+func (mds Markdowns) ToOutlinersMap() map[Path][]*Outliner {
+	if mds == nil {
+		return nil
+	}
+	outlinersMap := make(map[Path][]*Outliner)
+	for _, md := range mds {
+		outlinersMap[md.Path] = md.ToOutliners()
+	}
+	return outlinersMap
 }
 
 // LoadMarkdowns loads all markdowns.
@@ -122,7 +139,7 @@ func loadMarkdown(reader io.Reader, path string) (*Markdown, error) {
 	}
 
 	return &Markdown{
-		Path:     path,
+		Path:     Path(path),
 		Contents: contents,
 	}, nil
 }
