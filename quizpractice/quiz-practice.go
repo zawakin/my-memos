@@ -51,21 +51,3 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 
 	return nil
 }
-
-// Node is struct of node.
-type Node struct {
-	Depth    int
-	Name     string
-	Contents []string
-	Children []*Node
-	Parent   *Node
-}
-
-// NewNode is constructor of node.
-func NewNode(depth int, name string, parent *Node) *Node {
-	return &Node{
-		Depth:  depth,
-		Name:   name,
-		Parent: parent,
-	}
-}
