@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/zawawahoge/my-memos/quizpractice/markdown"
 )
@@ -34,10 +35,41 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 		return err
 	}
 	outlinersMap := mds.ToOutlinersMap()
-	for _, path := range paths {
+
+	for {
+		for i, path := range paths {
+			fmt.Printf("%d) %s\n", i, path)
+		}
+		fmt.Print("Please choose path you want to look into: ")
+		var index int
+		_, err := fmt.Scanf("%d", &index)
+		if err != nil || index < 0 || index >= len(paths) {
+			fmt.Println("Invalid input")
+			continue
+		}
+		path := paths[index]
 		outliners := outlinersMap[path]
-		for j, outline := range outliners {
-			fmt.Println(j, outline)
+		for i, outline := range outliners {
+			fmt.Printf("%d) Header %d %s\n", i, outline.Level, outline.Name)
+		}
+
+		fmt.Print("Please choose outline you want to read: ")
+		_, err = fmt.Scanf("%d", &index)
+		if err != nil || index < 0 || index >= len(outliners) {
+			fmt.Println("Invalid input")
+			continue
+		}
+		outline := outliners[index]
+		fmt.Printf("Header %d %s\n", outline.Level, outline.Name)
+		for _, content := range outline.Contents {
+			fmt.Println(content)
+		}
+
+		var s string
+		fmt.Printf("Do you continue? (y/n): ")
+		fmt.Scanf("%s", &s)
+		if sl := strings.ToLower(s); sl == "n" || sl == "no" {
+			break
 		}
 	}
 	return nil
