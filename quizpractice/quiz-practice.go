@@ -60,7 +60,7 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 		for {
 			ClearScreen()
 			outline := outliners[index]
-			fmt.Printf("\nHeader %d %s\n\n===\n", outline.Level, outline.Name)
+			fmt.Printf("\n（%d）%s %s\n\n===\n", index, strings.Repeat("#", outline.Level), outline.Name)
 			for _, content := range outline.Contents {
 				fmt.Println(content)
 			}
@@ -84,27 +84,21 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 			} else if s == "b" {
 				index--
 			} else {
-				index, err = strconv.Atoi(s)
+				i, err := strconv.Atoi(s)
 				if err != nil {
-					return err
+					fmt.Println("Invalid input")
 				}
-				if index < -1 || index >= len(outliners) {
+				if i < -1 || i >= len(outliners) {
 					fmt.Println("Invalid input")
 					continue
 				}
-				if index == -1 {
+				if i == -1 {
 					break
 				}
+				index = i
 			}
 		}
-		fmt.Printf("Do you continue? (y/n): ")
-		fmt.Scanf("%s", &s)
-		if sl := strings.ToLower(s); sl == "n" || sl == "no" {
-			break
-		}
-
 	}
-	return nil
 }
 
 // ClearScreen crears screen.
