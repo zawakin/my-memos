@@ -64,11 +64,11 @@ func (md *Markdown) ToOutliners() []*Outliner {
 }
 
 // ListMarkdowns returns list of markdowns walking in all the sub directories of `rootDir`.
-func ListMarkdowns(rootDir string) ([]string, error) {
-	var paths []string
+func ListMarkdowns(rootDir string) ([]Path, error) {
+	var paths []Path
 	wk := func(path string, info os.FileInfo, err error) error {
 		if filepath.Ext(path) == ".md" {
-			paths = append(paths, path)
+			paths = append(paths, Path(path))
 		}
 		return nil
 	}
@@ -95,7 +95,7 @@ func (mds Markdowns) ToOutlinersMap() map[Path][]*Outliner {
 }
 
 // LoadMarkdowns loads all markdowns.
-func LoadMarkdowns(paths []string) ([]*Markdown, error) {
+func LoadMarkdowns(paths []Path) (Markdowns, error) {
 	var mds []*Markdown
 	for _, path := range paths {
 		md, err := LoadMarkdown(path)
@@ -108,11 +108,11 @@ func LoadMarkdowns(paths []string) ([]*Markdown, error) {
 }
 
 // LoadMarkdown loads markdown file.
-func LoadMarkdown(path string) (*Markdown, error) {
-	if !strings.HasSuffix(path, ".md") {
+func LoadMarkdown(path Path) (*Markdown, error) {
+	if !strings.HasSuffix(string(path), ".md") {
 		return nil, fmt.Errorf("path should have the suffix `.md`.; path=%s", path)
 	}
-	file, err := os.Open(path)
+	file, err := os.Open(string(path))
 	if err != nil {
 		return nil, err
 	}
@@ -125,7 +125,7 @@ func LoadMarkdown(path string) (*Markdown, error) {
 	return md, nil
 }
 
-func loadMarkdown(reader io.Reader, path string) (*Markdown, error) {
+func loadMarkdown(reader io.Reader, path Path) (*Markdown, error) {
 	scanner := bufio.NewScanner(reader)
 	scanner.Split(bufio.ScanLines)
 
@@ -139,7 +139,7 @@ func loadMarkdown(reader io.Reader, path string) (*Markdown, error) {
 	}
 
 	return &Markdown{
-		Path:     Path(path),
+		Path:     path,
 		Contents: contents,
 	}, nil
 }

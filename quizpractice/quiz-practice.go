@@ -29,25 +29,16 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 	if err != nil {
 		return err
 	}
-	fmt.Println(paths)
 	mds, err := markdown.LoadMarkdowns(paths)
 	if err != nil {
 		return err
 	}
-
-	for _, md := range mds {
-		fmt.Println(md.Path)
-		outliners := md.ToOutliners()
-		for _, o := range outliners {
-			fmt.Println(o.Level, o.Name, len(o.Contents))
-			for i, content := range o.Contents {
-				if i > 0 {
-					continue
-				}
-				fmt.Println(i, content)
-			}
+	outlinersMap := mds.ToOutlinersMap()
+	for _, path := range paths {
+		outliners := outlinersMap[path]
+		for j, outline := range outliners {
+			fmt.Println(j, outline)
 		}
 	}
-
 	return nil
 }
