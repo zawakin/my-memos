@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"regexp"
 	"strconv"
 	"strings"
 
@@ -58,13 +59,11 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 
 		outliners := outlinersMap[path]
 		index = 0
+		ClearScreen()
 		for {
-			ClearScreen()
 			outline := outliners[index]
-			fmt.Printf("\n（%d）%s %s\n\n===\n", index, strings.Repeat("#", outline.Level), outline.Name)
-			for _, content := range outline.Contents {
-				fmt.Println(content)
-			}
+			PrintOutliner(outline)
+
 			fmt.Printf("===\n")
 			for i, outline := range outliners {
 				if i%5 == 0 {
@@ -82,8 +81,10 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 
 			if s == "f" {
 				index++
+				ClearScreen()
 			} else if s == "b" {
 				index--
+				ClearScreen()
 			} else {
 				i, err := strconv.Atoi(s)
 				if err != nil {
@@ -97,6 +98,7 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 					break
 				}
 				index = i
+				ClearScreen()
 			}
 		}
 	}
@@ -107,4 +109,26 @@ func ClearScreen() {
 	cmd := exec.Command("clear")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
+}
+
+// PrintOutliner describes outliner.
+func PrintOutliner(outline *markdown.Outliner) {
+	fmt.Printf("\n%s %s\n\n===\n", strings.Repeat("#", outline.Level), outline.Name)
+	for _, content := range outline.Contents {
+		fmt.Println(content)
+	}
+
+	fmt.Println()
+
+	re := regexp.MustCompile(`^(.+)は、(.+)です`)
+	for _, content := range outline.Contents {
+		for _, s := range strings.Split(content, "。") {
+			ss := re.FindStringSubmatch(s)
+			if len(ss) > 0 {
+				fmt.Println(ss[1])
+				fmt.Println(ss[2])
+			}
+		}
+	}
+
 }
