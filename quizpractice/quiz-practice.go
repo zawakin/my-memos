@@ -42,6 +42,7 @@ func (qp *quizPractice) Run(cxt context.Context) error {
 	var s string
 
 	for {
+		ClearScreen()
 		for i, path := range paths {
 			fmt.Printf("%d) %s\n", i, path)
 		}
