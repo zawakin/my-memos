@@ -124,7 +124,7 @@ ISAは、いくつかの異なる方法で分類されることがあります�
 
 ## von Neumann architecture
 
-https://en.wikipedia.org/wiki/Von_Neumann_architecture
+[Von_Neumann_architecture(en.wikipedia)](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 
 フォン・ノイマン・アーキテクチャ（フォン・ノイマン・モデル、プリンストン・アーキテクチャとも呼ばれる）は、ハンガリー系アメリカ人の数学者で物理学者のジョン・フォン・ノイマンらが1945年に発表した「EDVACに関する報告書の第1次草案」に基づいたコンピュータ・アーキテクチャです。この文書では、これらの構成要素を持つ電子デジタルコンピュータの設計アーキテクチャが記述されています。
 
@@ -228,7 +228,7 @@ https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 
 ### *Entscheidungsproblem*
 
-https://en.wikipedia.org/wiki/Entscheidungsproblem
+[Entscheidungsproblem(en.wikipedia)](https://en.wikipedia.org/wiki/Entscheidungsproblem)
 
 数学とコンピュータサイエンスでは、エンツァイトシャイトungsproblem（発音[ɛntˈʃaɪ̯dʊŋspʁoˌbleːm]、"決定問題 "のためのドイツ語）は、1928年にデビッド・ヒルベルトとヴィルヘルム・アッカーマンによって提起された課題です。問題は、文が普遍的に有効であるかどうかに応じて、入力として、文と答え "はい "または "いいえ "を考慮したアルゴリズムを求めている、すなわち、公理を満たすすべての構造で有効です。
 
@@ -236,7 +236,7 @@ https://en.wikipedia.org/wiki/Entscheidungsproblem
 
 ### Universal Turing machine
 
-https://en.wikipedia.org/wiki/Universal_Turing_machine
+[Universal_Turing_machine(en.wikipedia)](https://en.wikipedia.org/wiki/Universal_Turing_machine)
 
 コンピュータ・サイエンスでは、ユニバーサル・チューリング・マシン(UTM)とは、任意の入力で任意のチューリング・マシンをシミュレートするチューリング・マシンのことです。ユニバーサル・チューリング・マシンは、シミュレーションされるマシンの記述と、それ自身のテープからそのマシンへの入力の両方を読み取ることによって、これを本質的に達成します。アラン・チューリングは1936-1937年にそのような機械のアイデアを導入しました。この原理は、1946年にジョン・フォン・ノイマンが現在のフォン・ノイマンの名を冠した「電子計算機」のために使用したストアド・プログラム・コンピュータのアイデアの起源であると考えられています：フォン・ノイマン・アーキテクチャ。
 
@@ -252,7 +252,7 @@ https://en.wikipedia.org/wiki/Universal_Turing_machine
 
 ## System bus
 
-https://en.wikipedia.org/wiki/System_bus
+[System_bus(en.wikipedia)](https://en.wikipedia.org/wiki/System_bus)
 
 システムバスとは、情報を運ぶためのデータバス、送信先を決定するためのアドレスバス、動作を決定するための制御バスの機能を組み合わせて、コンピュータシステムの主要なコンポーネントを接続する単一のコンピュータバスのことです。この技術は、コスト削減とモジュール性の向上のために開発されたもので、1970年代と1980年代に人気がありましたが、現代のコンピュータでは、より特定のニーズに合わせて様々な別個のバスを使用しています。
 

@@ -910,7 +910,7 @@ IBMがSystem/360メインフレームを発表した頃には、ディスクオ�
 
 ### IBM PC compatible
 
-https://en.wikipedia.org/wiki/IBM_PC_compatible
+[IBM_PC_compatible(en.wikipedia)](https://en.wikipedia.org/wiki/IBM_PC_compatible)
 
 IBM PC互換コンピュータは、オリジナルのIBM PC、XT、ATと同様に、同じソフトウェアと拡張カードを使用することができます。このようなコンピュータは、PCクローン、またはIBMクローンと呼ばれていました。IBMがパーソナルコンピュータを販売しなくなったため、「IBM PC互換」という用語は、現在では歴史的な記述に過ぎない。業界の専門用語である「PC」は、一般的に「パーソナルコンピュータ」を意味するのではなく、アップルのMacとは対照的に、Microsoft Windowsが動作するコンピュータを意味することがあります。
 
