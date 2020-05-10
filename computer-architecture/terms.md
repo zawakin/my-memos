@@ -320,7 +320,7 @@ AVX命令は128ビットと256ビットのSIMDをサポートしています。1
 
 # inode
 
-https://en.wikipedia.org/wiki/Inode
+[Inode(en.wikipedia)](https://en.wikipedia.org/wiki/Inode)
 
 inode（インデックスノード）は、Unixスタイルのファイルシステムにおけるデータ構造であり、ファイルやディレクトリなどのファイルシステムオブジェクトを記述する。各inodeはオブジェクトのデータの属性とディスクブロックの位置を格納する[1] 。 ファイルシステムオブジェクトの属性には、メタデータ（最終変更時刻、[2] アクセス、変更）や所有者や許可データが含まれる[3]。
 
@@ -377,7 +377,7 @@ inode自体が最後に変更された時刻(ctime, inode change time)、最後�
 
 # File descriptor
 
-https://en.wikipedia.org/wiki/File_descriptor
+[File_descriptor(en.wikipedia)](https://en.wikipedia.org/wiki/File_descriptor)
 
 Unixおよび関連するコンピュータ・オペレーティング・システムでは、ファイル記述子(FD、より頻繁にはfildes)は、ファイルやパイプやネットワーク・ソケットなどの他の入出力リソースにアクセスするために使用される抽象的なインジケータ(ハンドル)です。ファイルディスクリプタはPOSIXアプリケーションプログラミングインタフェースの一部を形成しています。ファイルディスクリプタは非負の整数で、一般的にC言語ではint型として表されます（負の値は「値がない」またはエラー状態を示すために予約されています）。
 
@@ -403,7 +403,7 @@ C標準I/OライブラリのFILEデータ構造は、通常、Unixライクな�
 
 # Cylinder-head-sector(CHS)
 
-https://en.wikipedia.org/wiki/Cylinder-head-sector
+[Cylinder-head-sector(en.wikipedia)](https://en.wikipedia.org/wiki/Cylinder-head-sector)
 
 シリンダーヘッドセクタ（CHS）は、ハードディスクドライブ上のデータの物理ブロックごとにアドレスを与える初期の方法です。
 
@@ -422,7 +422,7 @@ https://en.wikipedia.org/wiki/Cylinder-head-sector
 
 # Logical block addressing(LBA)
 
-https://en.wikipedia.org/wiki/Logical_block_addressing
+[Logical_block_addressing(en.wikipedia)](https://en.wikipedia.org/wiki/Logical_block_addressing)
 
 論理ブロックアドレッシング（LBA）は、コンピュータのストレージデバイス、一般的にはハードディスクドライブなどの二次記憶システムに保存されているデータのブロックの位置を指定するために使用される一般的なスキームです。LBA は特に単純な線形アドレッシング方式で、ブロックは整数のインデックスによって配置され、最初のブロックは LBA 0、2 番目のブロックは LBA 1 などとなります。
 
@@ -444,7 +444,7 @@ LBA は、SCSI で最初に抽象化されて導入されました。ドライ�
 
 # I/O scheduling
 
-https://en.wikipedia.org/wiki/I/O_scheduling
+[I/O_scheduling(en.wikipedia)](https://en.wikipedia.org/wiki/I/O_scheduling)
 
 入出力(I/O)スケジューリングは、コンピュータのオペレーティングシステムが、ブロックI/O操作がストレージボリュームに送信される順序を決定するために使用する方法です。I/Oスケジューリングは、ディスクスケジューリングと呼ばれることもあります。
 
@@ -472,7 +472,7 @@ sdの直後の文字は、それが最初に見つかった順番を表してい
 
 # SCSI
 
-https://en.wikipedia.org/wiki/SCSI
+[SCSI(en.wikipedia)](https://en.wikipedia.org/wiki/SCSI)
 
 Small Computer System Interface（SCSI、/ˈskʌzi/ SKUZ-ee）[1]は、コンピュータと周辺機器間で物理的に接続し、データを転送するための標準規格のセットである。SCSI規格は、コマンド、プロトコル、電気的、光学的、論理的インターフェースを定義している。SCSI は、ハードディスクドライブやテープドライブに最も一般的に使用されていますが、スキャナや CD ドライブを含む他の広範囲のデバイスを接続することができます。SCSI 規格は、特定の周辺機器タイプのコマンドセットを定義しています。これらのタイプの 1 つとして「不明」が存在するということは、理論的にはほぼすべてのデバイスへのインターフェースとして使用できることを意味しますが、この規格は非常に実用的であり、商業的な要件を対象としています。
 
@@ -484,7 +484,7 @@ SCSI 規格の祖先である X3.131-1986 は、一般的に SCSI-1 と呼ばれ
 
 # Copy-on-write
 
-https://en.wikipedia.org/wiki/Copy-on-write
+[Copy-on-write(en.wikipedia)](https://en.wikipedia.org/wiki/Copy-on-write)
 
 コピーオンライト(COW)は、暗黙の共有[1]やシャドウイング[2]と呼ばれることもあるが、コンピュータプログラミングで使用されるリソース管理技術であり、修正可能なリソースに対して「複製」または「コピー」操作を効率的に実装するための技術である[3]。 リソースが複製されていても修正されていない場合、新しいリソースを作成する必要はない。リソースはコピーとオリジナルの間で共有することができます。 変更はコピーを作成しなければならないため、コピー操作は最初の書き込みに延期されます。このようにリソースを共有することで、変更されていないコピーのリソース消費量を大幅に削減することができ、一方でリソース変更操作のオーバーヘッドを小さくすることができます。
 
@@ -492,7 +492,7 @@ https://en.wikipedia.org/wiki/Copy-on-write
 
 # Semaphore
 
-https://en.wikipedia.org/wiki/Semaphore_(programming)
+[Semaphore_(programming)(en.wikipedia)](https://en.wikipedia.org/wiki/Semaphore_(programming))
 
 コンピュータサイエンスでは、セマフォとは、マルチタスク・オペレーティング・システムのような並行システムにおいて、複数のプロセスによる共通のリソースへのアクセスを制御するために使用される変数または抽象的なデータ型のことです。セマフォは単に変数である。この変数は、クリティカルセクションの問題を解決したり、マルチプロセッシング環境でプロセスの同期を実現したりするために使用されます。トリビアルなセマフォとは、プログラマが定義した条件に応じて変更（例えば、インクリメントやデクリメント、トグルなど）されるプレーンな変数のことです。
 
@@ -502,3 +502,38 @@ https://en.wikipedia.org/wiki/Semaphore_(programming)
 
 セマフォの概念は、オランダのコンピュータ科学者エドガー・ダイクストラによって1962年または1963年に発明された[1]。このシステムは最終的にTHEマルチプログラミングシステムとして知られるようになった。
 
+
+
+# Open Handset Alliance
+
+[Open_Handset_Alliance(en.wikipedia)](https://en.wikipedia.org/wiki/Open_Handset_Alliance)
+
+Open Handset Alliance (OHA)は、モバイル機器のオープンスタンダードを開発する84社のコンソーシアムです。メンバー企業は、HTC、Sony、Dell、Intel、Motorola、Qualcomm、Texas Instruments、Google、Samsung Electronics、LG Electronics、T-Mobile、Sprint Corporation、Nvidia、Wind River Systemsなどである。
+
+OHAは、2007年11月5日にGoogleが中心となって設立され、携帯端末メーカー、アプリケーション開発者、一部の携帯キャリア、チップメーカーなど34社が加盟しています。同アライアンスの主力ソフトウェアであるAndroid（2007年にGoogleが初めて開発）は、オープンソースライセンスに基づいており、Apple（iOS）、Microsoft（Windows Phone）、Nokia（Symbian）、HP（旧Palm）、Samsung Electronics / Intel（Tizen、bada）、BlackBerry（BlackBerry OS）のモバイルプラットフォームと競合してきた。
+
+統一されたAndroidプラットフォームを推進するための努力の一環として、OHAのメンバーは、競合するAndroidのフォークをベースにしたデバイスを製造することを契約上禁じられています。
+
+
+
+
+
+# UNIX System V
+
+[UNIX_System_V(en.wikipedia.org)](https://en.wikipedia.org/wiki/UNIX_System_V)
+
+Unix System V (発音: "System Five") は、Unix オペレーティングシステムの最初の商用バージョンの一つです。最初は AT&T によって開発され、1983 年に最初にリリースされました。システムVの4つの主要バージョンがリリースされ、番号は1, 2, 3, 4でした。System V Release 4 (SVR4) は商業的に最も成功したバージョンで、Unix System Unification として販売され、主要な Unix ベンダーの協力を求めた努力の結果でした。このバージョンは、いくつかの一般的な商用 Unix の機能の源となりました。System VはSysVと略されることもある。
+
+2020年現在、AT&T由来のUnix市場は、System Vの3つの亜種に分かれている。IBMのAIX、Hewlett-PackardのHP-UX、OracleのSolarisです。
+
+
+
+# AT&T
+
+[AT%26T(en.wikipedia)](https://en.wikipedia.org/wiki/AT%26T)
+
+AT&T Inc.は、アメリカ合衆国の多国籍コングロマリット持株会社であり、テキサス州ダラスのダウンタウンにあるホワイトクレアタワーに本社を置く[5] 世界最大の電気通信会社であり、携帯電話サービスの最大手であり、AT&Tコミュニケーションズを通じて固定電話サービスを提供している米国最大の企業である。2018年6月14日からは、マスメディア・コングロマリットであるワーナーメディアの親会社でもあり、収益面では世界最大のメディア・エンターテイメント企業となっている[6]。 2018年現在、AT&Tは米国企業の総収益額でフォーチュン500ランキングで9位にランクインしている[7]。
+
+AT&Tは、1877年にアレキサンダー・グラハム・ベルによって設立されたベル電話会社の子会社であるサウスウェスタン・ベル電話会社としてその歴史をスタートさせました。Bell Telephone Companyは1885年にAmerican Telephone and Telegraph Companyとなり、後にAT&T Corporationとして再ブランド化されました。1982年の米国対AT&T独占禁止法訴訟により、AT&T Corporation（「Ma Bell」）の子会社または地域ベル・オペレーティング・カンパニーズ（RBOC）が売却され、一般的に「Baby Bell」と呼ばれるようになり、Southwestern Bell Corporationを含むいくつかの独立した会社が誕生しました。2005年、SBCはかつての親会社であるAT&T Corporationを買収し、そのブランディングを引き継いだ。合併後の企業名はAT&T Inc.となり、その歴史、象徴的なロゴ、株式売買シンボルを使用している。2006年には、AT&T Inc.は最後の独立系ベビーベル会社であるBellSouthを買収し、2004年にAT&T Wirelessを買収した合弁会社Cingular Wirelessを完全子会社化し、AT&T Mobilityとブランド名を変更した。
+
+現在のAT&Tは、旧ベルシステムの大部分を再構成しており、当初の22社のベルオペレーティングカンパニーのうち10社と、当初の長距離部門を含む[8]。
