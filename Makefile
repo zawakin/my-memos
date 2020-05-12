@@ -1,5 +1,10 @@
+FORMAT_DIR = computer-architecture
+
 url-to-good-link:
-	find . -name '*.md' | xargs sed -i -E "s ^https://en.wikipedia.org/wiki/(.+)$$ [\1(en.wikipedia)](\0) "
+	find ${FORMAT_DIR} -name '*.md' | xargs sed -i -E "s ^https://en.wikipedia.org/wiki/(.+)$$ [\1(en.wikipedia)](\0) "
+
+remove-citation:
+	find ${FORMAT_DIR} -name '*.md' | xargs sed -i -E "s [[0-9]+]  g"
 
 local-test:
 	go test ./...
