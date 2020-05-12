@@ -8,6 +8,9 @@
 # Architecture一覧
 [Architecture一覧](list-of-architecture.md)
 
+# コンピュータ
+[コンピュータ](computer-architecture.md)
+
 # 用語一覧
 [用語一覧](terms.md)
 
