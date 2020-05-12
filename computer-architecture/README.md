@@ -9,7 +9,7 @@
 [Architecture一覧](list-of-architecture.md)
 
 # コンピュータ
-[コンピュータ](computer-architecture.md)
+[コンピュータとは何か](what-is-computer.md)
 
 # 用語一覧
 [用語一覧](terms.md)
