@@ -1,3 +1,5 @@
+.PHONY: url-to-good-link remove-citation format
+
 FORMAT_DIR = computer-architecture
 
 url-to-good-link:
@@ -5,6 +7,8 @@ url-to-good-link:
 
 remove-citation:
 	find ${FORMAT_DIR} -name '*.md' | xargs sed -i -E "s [[0-9]+]  g"
+
+format: url-to-good-link remove-citation
 
 local-test:
 	go test ./...
