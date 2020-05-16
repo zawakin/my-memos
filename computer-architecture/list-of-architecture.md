@@ -110,7 +110,7 @@ ISAは、命令や他の機能を追加したり、より大きなアドレス�
 命令セット・アーキテクチャは、マイクロアーキテクチャとは区別され、マイクロアーキテクチャは、特定のプロセッサで命令セットを実装するために使用されるプロセッサ設計技術のセットです。異なるマイクロアーキテクチャを持つプロセッサは、共通の命令セットを共有することができます。例えば、Intel Pentium と Advanced Micro Devices Athlon は、ほぼ同じバージョンの x86 命令セットを実装していますが、内部設計は全く異なります。
 
 特定のマシンの設計とは異なるアーキテクチャの概念は、IBMのフレッド・ブルックスがSystem/360の設計段階で開発したものです。
-NPL [System/以前は、IBMのコンピュータ設計者は、技術を選択するだけでなく、機能やアーキテクチャを改良することで、自由にコスト目標を達成していました。対照的に、SPREAD互換性目標では、コストと性能の広い範囲に渡る5つのプロセッサのシリーズに対して、単一のアーキテクチャを想定していました。5つの技術設計チームのいずれも、コストと性能の目標達成の困難さを緩和する方法として、アーキテクチャの仕様を調整することができるかどうかはあてにならなかった:p.137
+NPL [System/360]以前は、IBMのコンピュータ設計者は、技術を選択するだけでなく、機能やアーキテクチャを改良することで、自由にコスト目標を達成していました。対照的に、SPREAD互換性目標では、コストと性能の広い範囲に渡る5つのプロセッサのシリーズに対して、単一のアーキテクチャを想定していました。5つの技術設計チームのいずれも、コストと性能の目標達成の困難さを緩和する方法として、アーキテクチャの仕様を調整することができるかどうかはあてにならなかった:p.137
 
 Java 仮想マシンの Smalltalk や Microsoft の Common Language Runtime など、バイトコードを ISA としてサポートしているいくつかの仮想マシンでは、一般的に使用されるコードパスのバイトコードをネイティブマシンのコードに変換することでこれを実装しています。さらに、これらの仮想マシンは、あまり頻繁に使用されないコードパスを解釈して実行します（参照：ジャストインタイムコンパイル）。Transmeta は、VLIW プロセッサの上に x86 命令セットをこの方法で実装しました。
 
@@ -366,7 +366,7 @@ Davisはプログラム・アズ・データという概念の成果としてオ
 
 ...正方形にマークされた無限のテープの形で得られた無制限の記憶容量は、それぞれのシンボルを印刷することができます。どんな時でも、機械の中には一つの記号があります; それはスキャンされた記号と呼ばれます。マシンはスキャンされたシンボルを変更することができ、その動作はそのシンボルによって部分的に決定されますが、他の場所にあるテープ上のシンボルはマシンの動作に影響を与えません。しかし、テープは機械を通って前後に移動させることができ、これは機械の基本的な操作の一つである。テープ上の任意のシンボルは、したがって、最終的にはイニングを持つことができる。
 
-- Turing 1948, p.
+- Turing 1948, p.3
 
 
 
@@ -534,7 +534,7 @@ ELFはコンパイルされたアプリケーションプログラムのため�
 
 80386は1985年10月に発売され、1986年6月からチップの大量生産が開始された 。 80386ベースのコンピュータシステムのメインボードは、当初は煩雑で高価だったが、80386が主流になると製造が合理化された。80386を採用した最初のパーソナルコンピュータはCompaq社が設計・製造したが、IBM PC互換デファクトスタンダードの基本コンポーネントがIBM以外の企業によって初めて更新された。
 
-2006年5月、インテルは80386の生産を2007年9月末で終了することを発表した。このようなシステムは、航空宇宙技術や電子楽器などでは、80386や多くの派生製品の1つを使用するのが一般的である。一部の携帯電話では、BlackBerry  や Nokia 9000 Communicator などの 80386 プロセッサ（後に完全にスタティック CMOS 化したもの）も使用されていた。Linux は 2012 年 12 月 11 日まで 80386 プロセッサをサポートし続けたが、カーネルがバージョン 3.8 で 386 固有の命令をカットしたときには 、80386 プロセッサはサポートされなかった。
+2006年5月、インテルは80386の生産を2007年9月末で終了することを発表した。このようなシステムは、航空宇宙技術や電子楽器などでは、80386や多くの派生製品の1つを使用するのが一般的である。一部の携帯電話では、BlackBerry 950 や Nokia 9000 Communicator などの 80386 プロセッサ（後に完全にスタティック CMOS 化したもの）も使用されていた。Linux は 2012 年 12 月 11 日まで 80386 プロセッサをサポートし続けたが、カーネルがバージョン 3.8 で 386 固有の命令をカットしたときには 、80386 プロセッサはサポートされなかった。
 
 
 
@@ -548,15 +548,15 @@ ELFはコンパイルされたアプリケーションプログラムのため�
 | Address width                                                | 32 bits (386SX: 24 bits)                                     |
 | Architecture and classification                              |                                                              |
 | [Min. feature size](https://en.wikipedia.org/wiki/Technology_node) | 1.5µm to 1µm                                                 |
-| [Instruction set](https://en.wikipedia.org/wiki/Instruction_set_architecture) | [x86-(https://en.wikipedia.org/wiki/X86-32)               |
+| [Instruction set](https://en.wikipedia.org/wiki/Instruction_set_architecture) | [x86-32](https://en.wikipedia.org/wiki/X86-32)               |
 | Physical specifications                                      |                                                              |
 | [Transistors](https://en.wikipedia.org/wiki/Transistor_count) | 275,000                                                      |
-| [Co-processor](https://en.wikipedia.org/wiki/Co-processor)   | [Intel (https://en.wikipedia.org/wiki/X87#80387)       |
+| [Co-processor](https://en.wikipedia.org/wiki/Co-processor)   | [Intel 80387](https://en.wikipedia.org/wiki/X87#80387)       |
 | Package(s)                                                   | 132-pin [PGA](https://en.wikipedia.org/wiki/Pin_grid_array), 132-pin [PQFP](https://en.wikipedia.org/wiki/Plastic_quad_flat_package); SX variant: 88-pin PGA, 100-pin [BQFP](https://en.wikipedia.org/wiki/Bumpered_quad_flat_package) with 0.635mm pitch |
-| Socket(s)                                                    | [PGA(https://en.wikipedia.org/wiki/Pin_Grid_Array)       |
+| Socket(s)                                                    | [PGA132](https://en.wikipedia.org/wiki/Pin_Grid_Array)       |
 | History                                                      |                                                              |
-| Predecessor                                                  | [Intel (https://en.wikipedia.org/wiki/Intel_80286)     |
-| Successor                                                    | [Intel (https://en.wikipedia.org/wiki/Intel_80486)     |
+| Predecessor                                                  | [Intel 80286](https://en.wikipedia.org/wiki/Intel_80286)     |
+| Successor                                                    | [Intel 80486](https://en.wikipedia.org/wiki/Intel_80486)     |
 
 ### Architecture
 
@@ -722,8 +722,8 @@ VFPとAdvanced SIMDの統合に伴い、従来はVFPが担っていたスカラ�
 ```assembly
  fadd  s2, s1, s0             ; s2 <= s0 + s1（単精度スカラ）
  fadd  d2, d1, d0             ; d2 <= d0 + d1（倍精度スカラ）
- fadd  v2.4s, v1.4s, v0.4s    ; [v <= [v + [v（単精度x4 SIMD）
- fadd  v2.2d, v1.2d, v0.2d    ; [v <= [v + [v（倍精度x2 SIMD）
+ fadd  v2.4s, v1.4s, v0.4s    ; [v2] <= [v0] + [v1]（単精度x4 SIMD）
+ fadd  v2.2d, v1.2d, v0.2d    ; [v2] <= [v0] + [v1]（倍精度x2 SIMD）
 ```
 
 のようなバリエーションが命令のニーモニックを保ちつつ、オペランドのプレフィックス (s, d, v) とサフィックスを変更することによって記述可能になっている（サフィックスについては、一部の環境向けのアセンブラではニーモニック側に付加する省略記法も許されるようである）。これはx86プロセッサのSSE命令セットがスカラ命令とSIMD命令の双方を備えているのとよく似ている。
