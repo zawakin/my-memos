@@ -1,3 +1,5 @@
+Realize a society where everyone can aim for self-fulfillment without work
+
 # 1. Why a society without work is necessary
 ## 1-1. The drawbacks of the current work-centric society
 
