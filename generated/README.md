@@ -1,6 +1,7 @@
 - [PostgreSQL](book_postgresql.md)
 - [SF Novel: AI vs Human](sf-novel-ai-vs-human.md)
 - [Golang](textbook-golang.md)
+- [Golang Channel Programming](book_golang_channel_programming.md)
 - [Salesforce](textbook-salesforce.md)
 - [Self Fulfill](textbook-self-fulfill.md)
 - [Lagrange points](book_lagrange_point.md)
